@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -45,16 +45,16 @@ body {
 }
 
 .check-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .check-list__item {
-  list-style:none;
+  list-style: none;
 }
 
 .task-input, .new-task__button, .check-list__button_delete, .check-list__button_edit {
-  outline:none;
+  outline: none;
 }
 
 .new-task__button, .check-list__button_delete, .check-list__button_edit {
@@ -157,14 +157,14 @@ body {
 
 /* Edit Task */
 .check-list__input {
-  display:none;
+  display: none;
 }
 
 .check-list__item_edit .task-input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .check-list__item_edit .check-list__label {
-  display:none;
+  display: none;
 }
