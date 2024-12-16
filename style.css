@@ -53,11 +53,16 @@ body {
   list-style: none;
 }
 
-.task-input, .new-task__button, .check-list__button_delete, .check-list__button_edit {
+.task-input,
+.new-task__button,
+.check-list__button_delete,
+.check-list__button_edit {
   outline: none;
 }
 
-.new-task__button, .check-list__button_delete, .check-list__button_edit {
+.new-task__button,
+.check-list__button_delete,
+.check-list__button_edit {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +72,9 @@ body {
   cursor: pointer;
 }
 
-.check-list__button_edit:hover, .check-list__button_delete, .new-task__button:hover {
+.check-list__button_edit:hover,
+.check-list__button_delete,
+.new-task__button:hover {
   color: #3a3a3a;
 }
 
